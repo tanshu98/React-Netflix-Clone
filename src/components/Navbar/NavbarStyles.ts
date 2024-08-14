@@ -20,14 +20,50 @@ export const NavbarStyles = {
         gap:'20px',
         listStyle:'none'
     },
+    li:{
+        cursor:'pointer',
+
+    },
 
     navbarLeftImg:{
         width:'90px'
     },
     navbarRight: {
-       
+       display:'flex',
+       alignItems:'center',
+       gap:'20px'
     },
-    profile: {
-       
-    }
+    icons:{
+        cursor:'pointer'
+    },
+    profile:{
+        display:'flex',
+        alignItems:'center',
+        gap:'12px',
+        cursor:'pointer',
+        position:'relative' as 'relative'
+    },
+    profileIcon: {
+        cursor:'pointer',
+        width:'35px'
+    },
+    dropDown:{
+        position:'absolute' as 'absolute',
+        top:'100%',
+        right:'0',
+        width:'max-content',
+        background:'#191919',
+        padding:'18px 22px',
+        borderRadius:'4px',
+        textDecoration:'underline',
+        zIndex:1,
+        display:'none'
+    },
+    dropDownPara:{
+        fontSize:'13px',
+        cursor:'pointer'
+    },
+    dropDownVisible: {
+        display: 'block',
+    },
 }
